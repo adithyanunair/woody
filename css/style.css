@@ -1,0 +1,111 @@
+/* icon links */
+
+
+
+
+/* fontlink */
+  @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Roboto&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@500&display=swap');
+
+
+
+.icn1{
+    display: flex;
+
+}
+.nav2{
+ display: flex;
+ margin-left: 1000px;
+ 
+  
+}
+.social img{
+   padding-left: 20px;
+}
+
+.sec1{
+    display: flex;
+}
+
+
+/* NAVBAR */
+
+.navbar{
+  padding-top: 20px;
+
+
+}
+.logo{
+  display: flex;
+}
+.logo h3{
+
+  font-family: 'Merriweather Sans', sans-serif;
+  font-size: 40px;
+  padding-left:30px;
+  color: rgb(187, 78, 45);
+
+}
+.anchor{
+  padding-left: 500px;
+  padding-top: 20px;
+}
+.anchor a{
+  text-decoration: none;
+  color: black;
+  font-size: 25px;
+  padding-left: 20px;
+}
+.button{
+  width: 250px;
+  background-color: rgb(138, 59, 37);
+  color:white;
+}
+
+.sec1{
+
+justify-content: center;
+}
+.sec1 img {
+  padding-top: 70px;
+  padding-left: 200px;
+}
+.sec1 h1{
+  padding-top:80px;
+  padding-left: 60px;
+}
+.sec1para{
+  display: flex;
+ 
+}
+.sec1para h3{
+  padding-left: 230px;
+  padding-top: 20px;
+}
+
+
+.carousel-caption {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+ 
+    
+    color: white;
+    text-align: center;
+        
+  }
+ 
+
+ .carousel-caption .h5 .h1 .p{
+  font-family: 'Oswald', sans-serif;
+    font-family: 'Roboto', sans-serif;
+  
+}
+.cimg{
+    filter: brightness(50%);
+}
+
+.about{
+  display: flex;
+}
