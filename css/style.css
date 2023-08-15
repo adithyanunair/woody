@@ -44,7 +44,7 @@
   font-family: 'Merriweather Sans', sans-serif;
   font-size: 40px;
   padding-left:30px;
-  color: rgb(187, 78, 45);
+  color: rgb(187, 109, 45);
 
 }
 .anchor{
@@ -59,9 +59,29 @@
 }
 .button{
   width: 250px;
-  background-color: rgb(138, 59, 37);
+  background-color: rgb(187, 109, 45);
   color:white;
 }
+.carousel-caption .h5 .h1 .p{
+  font-family: 'Oswald', sans-serif;
+    font-family: 'Roboto', sans-serif;
+  
+}
+.cimg{
+    filter: brightness(50%);
+}
+.carousel-caption {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+
+  
+  color: white;
+  text-align: center;
+      
+}
+
+
 
 .sec1{
 
@@ -82,30 +102,79 @@ justify-content: center;
 .sec1para h3{
   padding-left: 230px;
   padding-top: 20px;
+  padding-bottom: 90px;
 }
 
 
-.carousel-caption {
-    position: absolute;
-    top: 40%;
-    left: 50%;
- 
-    
-    color: white;
-    text-align: center;
-        
-  }
- 
-
- .carousel-caption .h5 .h1 .p{
-  font-family: 'Oswald', sans-serif;
-    font-family: 'Roboto', sans-serif;
-  
-}
-.cimg{
-    filter: brightness(50%);
-}
 
 .about{
   display: flex;
+  background-color: rgb(244, 244, 244);
 }
+
+
+.paraabt{
+      padding-top: 60px;
+      padding-left: 40px;
+}
+.paraabt p{
+  width: 70%;
+  font-size: 24px;
+}
+
+.parasc2{
+  display: flex;
+  padding-top: 60px;
+}
+.parasc2h3{
+  margin-top: 50px;
+}
+.i1{
+  margin-left: 280px;
+}
+.p1{
+  margin-top: 60px;
+  padding-left: 10px; 
+}
+.p2{
+  margin-top: 60px;
+  padding-left: 10px;
+}
+.abtpara{
+  display: flex;
+}
+.abtpara p{
+  padding-left: 60px;
+}
+.b1{
+  width: 240px;
+  height: 70px;
+  background-color: rgb(187, 109, 45);
+  color: white;
+  margin-top: 50px;
+  margin-left: 50px;
+}
+
+/* our services */
+.os h1{
+  text-align: center;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+.card img{
+  transition: .3s;
+}
+
+.card img:hover{
+    transform: scale(1.1);
+   
+
+}
+/* end */
+
+/* why choose us */
+.wcu{
+  display: flex;
+}
+
+/* end */
